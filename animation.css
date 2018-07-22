@@ -1,0 +1,151 @@
+      body {
+				margin:0px;
+				padding:0px;
+				background-color:;
+				overflow:hidden;
+			}
+
+			div.Container {
+				width:105px;
+				height:104px;
+				margin:0px auto;
+				padding:0px;
+			}
+
+			div.subContainer {
+				margin:0px;
+				padding:0px;
+				width:105px;
+				height:104px;
+				position:absolute;
+				left:50%;
+				top:50%;
+				margin-top:-70px;
+				margin-left:-70.5px;
+			}
+			div.animation-1 {
+				background-color:red;
+				margin:0px 0px 0px 5px;
+				padding:0px;
+				width:30px;
+				height:30px;
+				border-radius:6px;
+				float:left;
+				/* animation */
+				animation-name:pageLoading1;
+				animation-duration:4s;
+				animation-delay:-0.1s;
+				animation-iteration-count:infinite;
+			}
+			div.animation-2 {
+				background-color:red;
+				margin:0px 0px 0px 5px;
+				padding:0px;
+				width:30px;
+				height:30px;
+				border-radius:6px;
+				float:left;
+				/* animation */
+				animation-name:pageLoading2;
+				animation-duration:4s;
+				animation-delay:-0.1s;
+				animation-iteration-count:infinite;
+			}
+			div.animation-3 {
+				background-color:red;
+				margin:0px 0px 0px 5px;
+				padding:0px;
+				width:30px;
+				height:30px;
+				border-radius:6px;
+				float:left;
+				/* animation */
+				animation-name:pageLoading3;
+				animation-duration:4s;
+				animation-delay:-0.1s;
+				animation-iteration-count:infinite;
+			}
+			@keyframes pageLoading1 {
+				0% {background-color:red;transform:rotate(90deg);}
+				25% {background-color:yellow;transform:rotate(180deg);}
+				50% {background-color:skyblue;transform:rotate(270deg);}
+				75% {background-color:green;transform:rotate(360deg);}
+				100% {background-color:red;transform:rotate(450deg);}
+			}
+			@keyframes pageLoading2 {
+				0% {background-color:red;transform:rotate(90deg);}
+				25% {background-color:yellow;transform:rotate(180deg);}
+				50% {background-color:skyblue;transform:rotate(270deg);}
+				75% {background-color:green;transform:rotate(360deg);}
+				100% {background-color:red;transform:rotate(450deg);}
+			}
+			@keyframes pageLoading3 {
+				0% {background-color:red;transform:rotate(90deg);}
+				25% {background-color:yellow;transform:rotate(180deg);}
+				50% {background-color:skyblue;transform:rotate(270deg);}
+				75% {background-color:green;transform:rotate(360deg);}
+				100% {background-color:red;transform:rotate(450deg);}
+			}
+			@-webkit-keyframes pageLoading1 {
+				0% {background-color:red;transform:rotate(90deg);}
+				25% {background-color:yellow;transform:rotate(180deg);}
+				50% {background-color:skyblue;transform:rotate(270deg);}
+				75% {background-color:green;transform:rotate(360deg);}
+				100% {background-color:red;transform:rotate(450deg);}
+			}
+			@-webkit-keyframes pageLoading2 {
+				0% {background-color:red;transform:rotate(90deg);}
+				25% {background-color:yellow;transform:rotate(180deg);}
+				50% {background-color:skyblue;transform:rotate(270deg);}
+				75% {background-color:green;transform:rotate(360deg);}
+				100% {background-color:red;transform:rotate(450deg);}
+			}
+			@-webkit-keyframes pageLoading3 {
+				0% {background-color:red;transform:rotate(90deg);}
+				25% {background-color:yellow;transform:rotate(180deg);}
+				50% {background-color:skyblue;transform:rotate(270deg);}
+				75% {background-color:green;transform:rotate(360deg);}
+				100% {background-color:red;transform:rotate(450deg);}
+			}
+			@-moz-keyframes pageLoading1 {
+				0% {background-color:red;transform:rotate(90deg);}
+				25% {background-color:yellow;transform:rotate(180deg);}
+				50% {background-color:skyblue;transform:rotate(270deg);}
+				75% {background-color:green;transform:rotate(360deg);}
+				100% {background-color:red;transform:rotate(450deg);}
+			}
+			@-moz-keyframes pageLoading2 {
+				0% {background-color:red;transform:rotate(90deg);}
+				25% {background-color:yellow;transform:rotate(180deg);}
+				50% {background-color:skyblue;transform:rotate(270deg);}
+				75% {background-color:green;transform:rotate(360deg);}
+				100% {background-color:red;transform:rotate(450deg);}
+			}
+			@-moz-keyframes pageLoading3 {
+				0% {background-color:red;transform:rotate(90deg);}
+				25% {background-color:yellow;transform:rotate(180deg);}
+				50% {background-color:skyblue;transform:rotate(270deg);}
+				75% {background-color:green;transform:rotate(360deg);}
+				100% {background-color:red;transform:rotate(450deg);}
+			}
+			@-o-keyframes pageLoading1 {
+				0% {background-color:red;transform:rotate(90deg);}
+				25% {background-color:yellow;transform:rotate(180deg);}
+				50% {background-color:skyblue;transform:rotate(270deg);}
+				75% {background-color:green;transform:rotate(360deg);}
+				100% {background-color:red;transform:rotate(450deg);}
+			}
+			@-o-keyframes pageLoading2 {
+				0% {background-color:red;transform:rotate(90deg);}
+				25% {background-color:yellow;transform:rotate(180deg);}
+				50% {background-color:skyblue;transform:rotate(270deg);}
+				75% {background-color:green;transform:rotate(360deg);}
+				100% {background-color:red;transform:rotate(450deg);}
+			}
+			@-o-keyframes pageLoading3 {
+				0% {background-color:red;transform:rotate(90deg);}
+				25% {background-color:yellow;transform:rotate(180deg);}
+				50% {background-color:skyblue;transform:rotate(270deg);}
+				75% {background-color:green;transform:rotate(360deg);}
+				100% {background-color:red;transform:rotate(450deg);}
+			}
